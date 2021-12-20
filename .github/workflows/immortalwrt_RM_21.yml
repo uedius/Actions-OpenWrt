@@ -8,7 +8,7 @@
 # Description: Build OpenWrt using GitHub Actions
 #
 
-name: immortalwrt K2P OpenWrt SSR
+name: immortalwrt RedMi2100 OpenWrt
 
 on:
   repository_dispatch:
@@ -21,11 +21,11 @@ on:
 
 env:
   REPO_URL: https://github.com/immortalwrt/immortalwrt
-  REPO_BRANCH: openwrt-18.06
-  FEEDS_CONF: feeds.conf.immortalwrt
-  CONFIG_FILE: K2PSSRP.config
+  REPO_BRANCH: openwrt-21.02
+  FEEDS_CONF: feeds.conf.immortalwrt21
+  CONFIG_FILE: RM2100_21.config
   DIY_P1_SH: diy-part1.sh
-  DIY_P2_SH: diy-part2.sh
+  DIY_P2_SH: diy-redmi.sh
   UPLOAD_BIN_DIR: false
   UPLOAD_FIRMWARE: true
   UPLOAD_COWTRANSFER: false
