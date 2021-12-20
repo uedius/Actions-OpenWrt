@@ -8,7 +8,7 @@
 # Description: Build OpenWrt using GitHub Actions
 #
 
-name: immortalwrt RedMi2100 OpenWrt
+name: immortalwrt21.02 RedMi2100 OpenWrt
 
 on:
   repository_dispatch:
