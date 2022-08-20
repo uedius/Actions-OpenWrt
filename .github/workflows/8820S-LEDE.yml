@@ -8,7 +8,7 @@
 # Description: Build OpenWrt using GitHub Actions
 #
 
-name: 8820S_lede OpenWrt
+name: 8820S OpenWrt
 
 on:
   repository_dispatch:
